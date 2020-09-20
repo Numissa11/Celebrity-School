@@ -1,13 +1,5 @@
-.navbar-links a:hover {
-      color: #e83f36 !important;
-    }
-    
-    .navbar-links a {
-      color: #464646 !important;
-      font-family: Klavika Regular !important;
-    }
-    
-    #active-key {
-      color: #e83f36 !important;
-    }
+a.navLink.nav-link {
+  
+  color: red;
+}
     

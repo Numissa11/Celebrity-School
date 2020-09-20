@@ -8,18 +8,20 @@ import { Link } from 'react-router-dom';
 function NavBar() {
 
       return (
-            <Navbar bg="dark" variant="dark" expand="lg" >
+            <Navbar scrolling dark expand="md" fixed="top" >
 
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                              <Nav.Link eventKey="consultancy"
+                        <Nav className="container-fluid" >
+                              <Nav.Link
                                     as={Link}
-                                    to="/">HOME</Nav.Link>
-                              <Nav.Link className="text-center"
+                                    to="/" >HOME</Nav.Link>
+
+                              <Nav.Link
+                              style={{ marginLeft: '1000px' }}
                                     as={Link}
                                     to="/lessons">ALL LESSONS</Nav.Link>
-                              <Nav.Link href="/login">LOGIN</Nav.Link>
+                              <Nav.Link className="ml-auto" as={Link} to="/login">LOGIN</Nav.Link>
 
                         </Nav>
 

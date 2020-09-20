@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Artist1 from '../album_image/album_banner_3.jpg'
-import Artist2 from '../../artist_image/album_banner_5.jpg';
-import Artist3 from '../../artist_image/album_banner_6.jpg';
-import Artist4 from '../../artist_image/album_banner_1.jpg';
-import Artist5 from '../../artist_image/album_banner_4.jpg';
+import Artist2 from '../album_image/album_banner_5.jpg'
+import Artist3 from '../album_image/album_banner_6.jpg'
+import Artist4 from '../album_image/album_banner_1.jpg'
+import Artist5 from '../album_image/album_banner_4.jpg'
 import './Carousel.css';
 
 function HomepageCarousel() {

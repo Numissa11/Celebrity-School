@@ -2,6 +2,7 @@
   min-height: 150px;
 }
 
+
 .navbar-brand {
   padding: 0 15px;
   height: 120px;
@@ -12,6 +13,19 @@
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
   padding: 9px 10px !important;
+}
+
+.background-red {
+  color:grey !important;
+}
+
+.background-blue {
+  color: #e83f36 !important;
+
+}
+
+.navbar-links a:hover {
+  color: #e83f36 !important;
 }
 
 @media (min-width: 768px) {

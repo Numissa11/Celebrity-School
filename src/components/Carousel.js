@@ -18,10 +18,16 @@ function HomepageCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>Online courses by superstars</h5>
-          <h5>Nawazuddin Siddiqui</h5>
-          <h6>Teaches Acting</h6>
+          <div className="title">
+          <h3 className="online-course">Online courses by superstars</h3>
 
+          </div>
+
+        <div className="baner-text">
+
+          <h2 className="actors-name" >Nawazuddin Siddiqui</h2>
+          <h3>Teaches Acting</h3>
+</div>
 
         </Carousel.Caption>
 
@@ -34,10 +40,15 @@ function HomepageCarousel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Online courses by superstars</h5>
-          <h5>Shaan</h5>
-          <h6>Teaches Singing</h6>
+        <div className="title">
+          <h3 className="online-course">Online courses by superstars</h3>
 
+          </div>
+        <div className="baner-text">
+
+          <h2 className="actors-name" >Shaan</h2>
+          <h3>Teaches Singing</h3>
+</div>
 
         </Carousel.Caption>
       </Carousel.Item>
@@ -50,9 +61,15 @@ function HomepageCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Online courses by superstars</h5>
-          <h5>Sabira Merchant</h5>
-          <h6>Teaches Communication Skills</h6>
+        <div className="title">
+          <h3 className="online-course sab">Online courses by superstars</h3>
+
+          </div>
+        <div className="baner-text">
+
+          <h2 className="actors-name" >Sabira Merchant</h2>
+          <h3>Teaches Communication Skills</h3>
+          </div>
         </Carousel.Caption>
 
       </Carousel.Item>
@@ -64,9 +81,18 @@ function HomepageCarousel() {
           alt="Forth slide"
         />
         <Carousel.Caption>
-        <h5>Online courses by superstars</h5>
-          <h5>Madhur Bhandarkar</h5>
-          <h6>Teaches Direction</h6>        </Carousel.Caption>
+        <div className="title">
+          <h3 className="online-course">Online courses by superstars</h3>
+
+          </div>
+          <div className="baner-text">
+
+            <h2 className="actors-name" >Madhur Bhandarkar</h2>
+            <h3>Teaches Direction</h3>
+
+          </div>
+
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
@@ -77,9 +103,18 @@ function HomepageCarousel() {
           alt="Fifth slide"
         />
         <Carousel.Caption>
-          <h5>Online courses by superstars</h5>
-          <h5>Siddharth Prabhakar</h5>
-          <h5>Teaches Business</h5>
+        <div className="title">
+          <h3 className="online-course">Online courses by superstars</h3>
+
+          </div>
+          <div className="baner-text">
+
+            <h2 className="actors-name" >Siddharth Prabhakar</h2>
+
+            <h3>Teaches Business</h3>
+
+          </div>
+
         </Carousel.Caption>
 
       </Carousel.Item>

@@ -30,9 +30,12 @@ function HomepageCarousel() {
             <h2 className="actors-name" >Nawazuddin Siddiqui</h2>
             <h3>Teaches Acting</h3>
             <Link to="/login">
-          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
-          </Link>
+            <Button href="" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+
             <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+
+            </Link>
+           
           </div>
 
         </Carousel.Caption>
@@ -48,16 +51,17 @@ function HomepageCarousel() {
         <Carousel.Caption>
           <div className="title">
             <h3 className="online-course">Online courses by superstars</h3>
-            
+
           </div>
           <div className="baner-text">
 
             <h2 className="actors-name" >Shaan</h2>
             <h3>Teaches Singing</h3>
             <Link to="/login">
-          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
-          </Link>
-            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+              <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+              <Button href="" variant="outline-light">JOIN NOW</Button>
+
+            </Link>
           </div>
 
         </Carousel.Caption>
@@ -80,9 +84,10 @@ function HomepageCarousel() {
             <h2 className="actors-name" >Sabira Merchant</h2>
             <h3>Teaches Communication Skills</h3>
             <Link to="/login">
-          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
-          </Link>
-            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+              <Button  href="" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+              <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+
+            </Link>
           </div>
         </Carousel.Caption>
 
@@ -104,9 +109,11 @@ function HomepageCarousel() {
             <h2 className="actors-name" >Madhur Bhandarkar</h2>
             <h3>Teaches Direction</h3>
             <Link to="/login">
-          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
-          </Link>
+            </Link>
+            <Button style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+
             <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+
           </div>
 
         </Carousel.Caption>
@@ -132,10 +139,11 @@ function HomepageCarousel() {
 
             <h3>Teaches Business</h3>
             <Link to="/login">
-          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
-          </Link>
+            </Link>
+            <Button style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+
             <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
-            
+
           </div>
 
         </Carousel.Caption>

@@ -8,7 +8,5 @@ img {
 
 
   a:hover {
-      background-color: whitesmoke !important;
-    color:   black !important; 
     font-weight: 800; 
   }

@@ -1,0 +1,8 @@
+Date,"From Date","To Date",Products,Gender,"Age Min","Age Max"
+custom,2020-04-01,2020-09-01,,boy,2,13
+"Height Lable","Number Of Patients"
+"Severely Stunted",7
+Stunted,3
+"Low Height",8
+Normal,17
+"Abnormal Height",28

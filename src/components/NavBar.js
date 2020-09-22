@@ -1,45 +1,34 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
 import './Navbar.css';
-
+import NavbarLogo from '../images/logo.png'
 
 
 
 function NavBar() {
-      
 
-      const navbar = { color: 'grey', fontSize: '30px', fontFamily: 'serif', borderStyle: 'double' }
-      const navbar2 = { marginLeft: '75%', color: 'grey', fontSize: '30px', fontFamily: 'serif', borderStyle: 'double' }
-      return (
-            <Navbar scrolling dark expand="md" fixed="top" >
+    return (
 
-                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                  <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav 
-                        className="container-fluid" >
+        <Navbar inverse fluid scrolling light fixed="top" >
+            <Navbar.Brand href="https://www.celebrityschool.in/" >
+                <img 
+                alt="Cschool logo"
+                src={NavbarLogo}
+                />
+            </Navbar.Brand>
+            <Nav className="mr-auto">
+                <Nav.Link href="https://www.celebrityschool.in/online-all-classes" > ALL LESSONS </Nav.Link>
 
-                              <Nav.Link
-                                    as={Link}
-                                    to="/" >HOME</Nav.Link>
+                <Nav.Link href="" > LOGIN </Nav.Link>
+            </Nav>
 
-                              <Nav.Link
-                              
-                                    style={navbar2}
-                                    as={Link}
-                                    to="/lessons"
-                                    eventKey="lessons"
-                                    >ALL LESSONS</Nav.Link>
-                              <Nav.Link
-                                    eventKey="login"
-                                    
-                                    className="ml-auto" as={Link} to="/login" style={navbar}>LOGIN</Nav.Link>
+        </Navbar>
 
-                        </Nav>
 
-                  </Navbar.Collapse>
-            </Navbar>
-      );
+
+
+
+    );
 }
 
 export default NavBar;

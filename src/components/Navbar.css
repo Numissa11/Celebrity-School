@@ -1,25 +1,11 @@
-.navbar {
-  min-height: 150px;
+img {
+    height: "auto";
+    max-width: 80%;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
 }
 
-
-.navbar-brand {
-  padding: 0 15px;
-  height: 120px;
-  line-height: 80px;
+a :hover {
+    color: #000;
 }
-
-.navbar-toggle {
-  margin-top: 23px;
-  padding: 9px 10px !important;
-}
-
-
-/* Hover Colors */
-
- a:hover {
-  color: #ece2e1!important;
-}
-
- 
-

@@ -1,0 +1,9 @@
+Date,"From Date","To Date",Products,Gender,"Age Min","Age Max"
+custom,2020-04-16,2020-09-01,,boy,2,13
+"Height Lable","Number Of Patients"
+"Severely Underweight",3
+Underweight,18
+"Suboptimal Weight",8
+"Normal Weight",5
+Overweight,36
+Obese,36

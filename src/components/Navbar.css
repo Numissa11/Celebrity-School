@@ -1,11 +1,12 @@
 img {
-    height: "auto";
-    max-width: 80%;
+    height: auto;
+   width: 300px;
     vertical-align: middle;
     border: 0;
     box-sizing: border-box;
 }
 
-a :hover {
-    color: #000;
-}
+
+  a:hover {
+    color:   #b6d02f !important;  
+  }

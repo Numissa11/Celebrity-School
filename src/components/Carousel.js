@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button'
+import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import Artist1 from '../album_image/album_banner_3.jpg'
 import Artist2 from '../album_image/album_banner_5.jpg'
@@ -19,15 +21,19 @@ function HomepageCarousel() {
         />
         <Carousel.Caption>
           <div className="title">
-          <h3 className="online-course">Online courses by superstars</h3>
+            <h3 className="online-course">Online courses by superstars</h3>
 
           </div>
 
-        <div className="baner-text">
+          <div className="baner-text">
 
-          <h2 className="actors-name" >Nawazuddin Siddiqui</h2>
-          <h3>Teaches Acting</h3>
-</div>
+            <h2 className="actors-name" >Nawazuddin Siddiqui</h2>
+            <h3>Teaches Acting</h3>
+            <Link to="/login">
+          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
+          </Link>
+            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+          </div>
 
         </Carousel.Caption>
 
@@ -40,15 +46,19 @@ function HomepageCarousel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-        <div className="title">
-          <h3 className="online-course">Online courses by superstars</h3>
-
+          <div className="title">
+            <h3 className="online-course">Online courses by superstars</h3>
+            
           </div>
-        <div className="baner-text">
+          <div className="baner-text">
 
-          <h2 className="actors-name" >Shaan</h2>
-          <h3>Teaches Singing</h3>
-</div>
+            <h2 className="actors-name" >Shaan</h2>
+            <h3>Teaches Singing</h3>
+            <Link to="/login">
+          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
+          </Link>
+            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+          </div>
 
         </Carousel.Caption>
       </Carousel.Item>
@@ -61,14 +71,18 @@ function HomepageCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-        <div className="title">
-          <h3 className="online-course sab">Online courses by superstars</h3>
+          <div className="title">
+            <h3 className="online-course sab">Online courses by superstars</h3>
 
           </div>
-        <div className="baner-text">
+          <div className="baner-text">
 
-          <h2 className="actors-name" >Sabira Merchant</h2>
-          <h3>Teaches Communication Skills</h3>
+            <h2 className="actors-name" >Sabira Merchant</h2>
+            <h3>Teaches Communication Skills</h3>
+            <Link to="/login">
+          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
+          </Link>
+            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
           </div>
         </Carousel.Caption>
 
@@ -81,15 +95,18 @@ function HomepageCarousel() {
           alt="Forth slide"
         />
         <Carousel.Caption>
-        <div className="title">
-          <h3 className="online-course">Online courses by superstars</h3>
+          <div className="title">
+            <h3 className="online-course">Online courses by superstars</h3>
 
           </div>
           <div className="baner-text">
 
             <h2 className="actors-name" >Madhur Bhandarkar</h2>
             <h3>Teaches Direction</h3>
-
+            <Link to="/login">
+          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
+          </Link>
+            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
           </div>
 
         </Carousel.Caption>
@@ -102,23 +119,33 @@ function HomepageCarousel() {
           src={Artist5}
           alt="Fifth slide"
         />
+
         <Carousel.Caption>
-        <div className="title">
-          <h3 className="online-course">Online courses by superstars</h3>
+          <div className="title">
+            <h3 className="online-course">Online courses by superstars</h3>
 
           </div>
           <div className="baner-text">
 
             <h2 className="actors-name" >Siddharth Prabhakar</h2>
 
-            <h3>Teaches Business</h3>
 
+            <h3>Teaches Business</h3>
+            <Link to="/login">
+          <Button style={{marginRight:'15px'}}  variant="outline-light">GET ALL COURSES</Button>
+          </Link>
+            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+            
           </div>
 
         </Carousel.Caption>
 
       </Carousel.Item>
+
+
     </Carousel>
+
+
 
   );
 }

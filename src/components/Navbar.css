@@ -1,6 +1,6 @@
 img {
-    height: auto;
-   width: 300px;
+    height: "auto";
+    /* max-width: 80%; */
     vertical-align: middle;
     border: 0;
     box-sizing: border-box;
@@ -8,5 +8,7 @@ img {
 
 
   a:hover {
-    color:   #b6d02f !important;  
+      background-color: whitesmoke !important;
+    color:   black !important; 
+    font-weight: 800; 
   }

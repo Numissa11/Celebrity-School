@@ -2,16 +2,16 @@ import React, { Component } from "react"
 import firebase from "firebase"
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
 
-// domain infos
-firebase.initializeApp({
-  apiKey: "AIzaSyDNI0LkeClBI5GuXkryM-O4beKoiicSmhE",
-  authDomain: "celebrity-school-4325a.firebaseapp.com",
-  databaseURL: "https://celebrity-school-4325a.firebaseio.com",
-  projectId: "celebrity-school-4325a",
-  storageBucket: "celebrity-school-4325a.com",
-  messagingSenderId: "305461072170",
-  appId: "AAAARx7mESo:APA91bFzLip3udBh1LrjoTQeH9_5ZBgWebBvCweT2crZaZjzg_v1PeRHvsGGcarj9wyKSbMvTz0iCUKqPaMwU9NcLC4Pw2IqX2uuXqCrDLPI584JaVe7QEPzge23cPNcKVpAMGi6ZJyW",
-})
+//  domain infos
+ firebase.initializeApp({
+   apiKey: "AIzaSyDNI0LkeClBI5GuXkryM-O4beKoiicSmhE",
+   authDomain: "celebrity-school-4325a.firebaseapp.com",
+   databaseURL: "https://celebrity-school-4325a.firebaseio.com",
+   projectId: "celebrity-school-4325a",
+   storageBucket: "celebrity-school-4325a.com",
+   messagingSenderId: "305461072170",
+   appId: "AAAARx7mESo:APA91bFzLip3udBh1LrjoTQeH9_5ZBgWebBvCweT2crZaZjzg_v1PeRHvsGGcarj9wyKSbMvTz0iCUKqPaMwU9NcLC4Pw2IqX2uuXqCrDLPI584JaVe7QEPzge23cPNcKVpAMGi6ZJyW",
+ })
 
 
 class Login extends Component {

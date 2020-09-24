@@ -11,7 +11,7 @@ import './Carousel.css';
 
 function HomepageCarousel() {
   return (
-    <Carousel interval="4000">
+    <Carousel interval="5000">
       <Carousel.Item>
 
         <img
@@ -58,7 +58,7 @@ function HomepageCarousel() {
             <h2 className="actors-name" >Shaan</h2>
             <h3>Teaches Singing</h3>
             <Link to="/login">
-              <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
+              <Button href="https://www.celebrityschool.in/shaan-singing-classes" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
               <Button href="" variant="outline-light">JOIN NOW</Button>
 
             </Link>
@@ -85,7 +85,7 @@ function HomepageCarousel() {
             <h3>Teaches Communication Skills</h3>
             <Link to="/login">
               <Button  href="" style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
-              <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+              <Button href="https://www.celebrityschool.in/sabira-merchant-communication-skills-classes" variant="outline-light">JOIN NOW</Button>
 
             </Link>
           </div>
@@ -112,7 +112,7 @@ function HomepageCarousel() {
             </Link>
             <Button style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
 
-            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+            <Button href="https://www.celebrityschool.in/madhur-bhandarkar-classes" variant="outline-light">JOIN NOW</Button>
 
           </div>
 
@@ -141,8 +141,7 @@ function HomepageCarousel() {
             <Link to="/login">
             </Link>
             <Button style={{ marginRight: '15px' }} variant="outline-light">GET ALL COURSES</Button>
-
-            <Button href="https://www.celebrityschool.in/nawazuddin-siddiqui-acting-classes" variant="outline-light">JOIN NOW</Button>
+            <Button href="https://www.celebrityschool.in/siddharth-prabhakar-business-classes" variant="outline-light">JOIN NOW</Button>
 
           </div>
 

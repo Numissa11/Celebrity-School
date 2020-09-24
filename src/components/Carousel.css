@@ -8,6 +8,12 @@
   
 }
 
+.logo-container img {
+  width: 100%;
+  height: auto;
+  
+}
+
 .actors-name {
  font-size: 62px;
   font-family: 'Hind Madurai', sans-serif;
@@ -22,12 +28,4 @@
   line-height: 2;
  }
 
- .title {
-   display: flex;
- }
-.online-course {
-  justify-content: start;
-  font-size: 45px;
-  margin-left: 0%;
-line-height: 2.5;
-}
+

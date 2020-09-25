@@ -1,12 +1,49 @@
-img {
-    height: "auto";
-    /* max-width: 80%; */
-    vertical-align: middle;
-    border: 0;
-    box-sizing: border-box;
+.toolbar{
+      /* POSITION FIX CA CACHE LES TRUCS QU IL Y A DERIERE et TOP et LEFT je crois c'est la position top left sorner position  */
+
+
+/* CA C'EST BON */
+width: 100%;
+background:cadetblue;
+height: 100px;
+}
+
+.toolbar_logo img {
+      height:auto;
+      max-width:100%;
 }
 
 
-  a:hover {
-    font-weight: 800; 
-  }
+.spacer {
+      flex:1;
+}
+
+.toolbar_navigation {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding:0 1rem;
+}
+
+.toolbar_navigation_items a {
+color:white;
+text-decoration: none;
+}
+
+.toolbar_navigation_items ul {
+      list-style: none;
+      margin:0;
+      padding:0;
+      display: flex;
+      }
+
+
+.toolbar_navigation_items ul {
+      padding: 0 0.5rem;
+      }
+
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active {
+      color:orange;
+}
+

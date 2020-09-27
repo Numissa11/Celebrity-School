@@ -1,10 +1,13 @@
 import React from "react";
-import carousel from './Carousel';
+import HomepageCarousel from './Carousel';
+import NavBar from './NavBar'
+
 
 function Home() {
       return (
             <div>
-                  <carousel />
+                 <NavBar />
+        <HomepageCarousel />
             </div>
       )
 }
